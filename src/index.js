@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import * as serviceWorker from './serviceWorker';
 import SiderDemo from './layout/index'
 
 ReactDOM.render(
@@ -12,4 +10,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-serviceWorker.unregister();
